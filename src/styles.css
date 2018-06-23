@@ -1,0 +1,71 @@
+.gf-setting{
+    padding: 5px;
+}
+
+.gficon-add,
+.gficon-subtract,
+.gf-custom-field-handle {
+    cursor:pointer;
+    vertical-align:middle;
+    padding:3px;
+}
+
+.gf-custom-field-row input{
+    padding-top:5px;
+}
+
+.gf-handle,
+.gf-item-container,
+.gf-buttons-container{
+    float: left;
+}
+
+.rtl .gf-handle,
+.rtl .gf-item-container,
+.rtl .gf-buttons-container{
+    float: right;
+}
+
+.gf-handle{
+    width: 25px;
+    cursor:move;
+}
+
+.gf-buttons-container{
+    margin-left: 5px;
+}
+
+.rtl .gf-buttons-container{
+    margin-right: 5px;
+}
+
+.gf-radio-horizontal{
+    display:inline-block;
+    margin-right: 5px;
+}
+.rtl .gf-radio-horizontal{
+    margin-left: 5px;
+}
+
+.gf-repeater-item.top {
+    margin-bottom: 10px;
+}
+
+.gf-repeater-item.top .gf-handle,
+.gf-repeater-item.top .gf-buttons-container{
+    margin-top: 10px;
+}
+
+.gf-repeater-item.nodes .gf-handle,
+.gf-repeater-item.nodes .gf-buttons-container{
+    margin-top: 4px;
+}
+
+.gf-setting select[multiple]{
+    width:100%;
+    height:120px;
+}
+
+.gf-repeater-item{
+    margin-top:10px;
+}
