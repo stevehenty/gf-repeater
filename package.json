@@ -13,7 +13,7 @@
     "url": "git+https://github.com/stevehenty/gf-repeater.git"
   },
   "author": "stevehenty",
-  "license": "MIT",
+  "license": "GPL-2.0-or-later",
   "peerDependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
