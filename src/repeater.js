@@ -127,7 +127,7 @@ export default class Repeater extends React.Component {
 												<label>{this.props.label}</label>
 											</div>) : '';
 
-		return (<div className="gf-setting" key={itemName}>
+		return (<div className="gf-repeater-setting" key={itemName}>
 			{label}
 			<Sortable
 				options={{

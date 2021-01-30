@@ -20,7 +20,7 @@ export default class RadioField extends React.Component {
 
 	render() {
 
-		const className = this.props.horizontal ? 'gf-radio-horizontal' : 'gf-radio-vertical';
+		const className = this.props.horizontal ? 'gf-repeater-radio-horizontal' : 'gf-repeater-radio-vertical';
 
 		return (<div className={className}><label>
 					<input

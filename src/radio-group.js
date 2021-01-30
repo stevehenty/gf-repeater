@@ -26,7 +26,7 @@ export default class RadioGroupField extends React.Component {
 			/>)
 		});
 
-		return (<div className="gf-setting">
+		return (<div className="gf-repeater-setting">
 				<div>
 					<label htmlFor={this.id}>{this.props.label}</label>
 				</div>

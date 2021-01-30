@@ -24,13 +24,12 @@ export default class TextField extends React.Component {
 	}
 
 	render() {
-		const size = this.props.size ? this.props.size : 'large';
 		return (<div className="gf-setting">
 					<div>
 						<label htmlFor={this.id}>{this.props.label}</label>
 					</div>
 					<input
-						className={ 'gaddon-setting gaddon-text ' + size }
+						className={ this.props.className }
 						id={this.id}
 						type="text"
 						name={this.props.settingName}

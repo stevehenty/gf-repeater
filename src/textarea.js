@@ -24,10 +24,16 @@ export default class TextAreaField extends React.Component {
 	}
 
 	render() {
-
-		return (<div className="gf-setting">
-					<label htmlFor={this.id}>{this.props.label}</label>
-					<textarea id={this.id} name={this.props.settingName} onChange={this._handleChange} value={this.props.value} />
+		return (<div className="gf-repeater-setting">
+					<div>
+						<label htmlFor={this.id}>{this.props.label}</label>
+					</div>
+					<textarea
+						className={ this.props.className }
+						id={this.id}
+						name={this.props.settingName}
+						onChange={this._handleChange}
+						value={this.props.value} />
 				</div>
 		);
 	}

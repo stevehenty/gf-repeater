@@ -19,10 +19,10 @@ export default class CheckboxField extends React.Component {
 	}
 
 	render() {
-		return (<div className="gf-setting"><label>
+		return (<div className="gf-repeater-setting"><label>
 			<input
 				type="checkbox"
-				className={ 'gf-setting-' + this.props.settingName }
+				className={ 'gf-repeater-setting-' + this.props.settingName }
 				name={this.props.settingName}
 				checked={this.props.checked}
 				onChange={this._handleChange}/>{this.props.label}

@@ -50,9 +50,9 @@ export default class SelectField extends React.Component {
 
 		const label = this.props.label ? <div><label>{this.props.label}</label></div> : '';
 
-		return (<div className="gf-setting">{label}
+		return (<div className="gf-repeater-setting">{label}
 			<select
-				className={ 'gf-setting-' + this.props.settingName }
+				className={ this.props.className }
 				type="select"
 				multiple={this.props.multiple}
 				name={this.props.settingName}
