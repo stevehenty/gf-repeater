@@ -1,6 +1,6 @@
 {
   "name": "gf-repeater",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A nestable repeater React component for use in Gravity Forms settings.",
   "main": "build/index.js",
   "scripts": {
